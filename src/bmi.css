@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .inner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vh;
+    border-radius: 9px;
+    width: 30vw;
+    height: 75vh;
+    background-color: rgb(244, 237, 237);
+    border: 2px solid rgb(151, 147, 147);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  h1{
+    margin: 30px 54px;
+    /* padding : 23px 109px; */
+  }
+  .input1{
+    margin: 10px 54px;
+    margin-bottom: 30px;
+    padding: 12px;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  .input2{
+    margin: 10px 54px;
+    margin-bottom: 30px;
+    padding: 12px;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  .common{
+    font-family: 'Roboto', sans-serif;
+    margin: 3px 54px;
+    padding: 12px;
+    border-radius: 9px;
+    /* margin-bottom: 30px; */
+    cursor: pointer;
+
+  }
+
+  
+
+ .discription{
+    margin: 0px 54px;
+ }
+
+ h3{
+    margin: 10px 54px;
+    /* padding : 23px 109px; */
+  }
